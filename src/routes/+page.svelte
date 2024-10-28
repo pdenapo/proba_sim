@@ -1,26 +1,8 @@
-<script lang="ts">
-	import { Button } from 'svelte-ux';
-</script>
-
 <main class="p-4 grid place-items-center content-center">
-	<h1 class="text-2xl font-semibold mb-2">¡Bienvenido al programa de contabilidad Luca!</h1>
-	<div>
-		<Button
-			href="https://svelte-ux.techniq.dev"
-			target="_blank"
-			variant="fill-light"
-			color="primary"
-		>
-			Documentation
-		</Button>
-		<Button
-			href="https://svelte-ux.techniq.dev/customization"
-			target="_blank"
-			variant="fill-light"
-			color="primary"
-		>
-			Customization
-		</Button>
-	</div>
+	<h1 class="text-2xl font-semibold m-4 text-secondary">
+		¡Bienvenido al programa de simulación de distribuciones de probabilidad!
+	</h1>
 
+	Esta es una aplicación que hice para mis alumnos de Probabilidades y Estadística, con propóstos
+	didácticos. (C) 2004 Pablo Luis De Nápoli.
 </main>
