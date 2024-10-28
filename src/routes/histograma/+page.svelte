@@ -83,7 +83,7 @@
 						value: 'normal'
 					},
 					{
-						label: 'Uniforme',
+						label: 'Uniforme en el Intervalo [0,10]',
 						value: 'uniform'
 					},
 					{
@@ -112,7 +112,7 @@
 				class="w-full"
 				on:change={() => (randomData = new_data(random, parameters, selectedGenerator))}
 			/>
-			<NumberStepper label="Cajitas" bind:value={howManyBins} class="w-full" />
+			<NumberStepper label="Intervalos" bind:value={howManyBins} class="w-full" />
 		</div>
 
 		<h2>Histograma de los puntos generados (frecuencias relativas)</h2>
@@ -125,8 +125,8 @@
 				bandPadding={0.2}
 				props={{
 					xAxis: {
-						format: 'metric',
-						tweened: true
+						tweened: true,
+						ticks:10
 					},
 					bars: { tweened: true }
 				}}
@@ -136,10 +136,10 @@
 						<Tooltip.Header class="text-center">{data.x0 + ' - ' + (data.x1 - 0.01)}</Tooltip.Header
 						>
 						<Tooltip.List>
-							<Tooltip.Item label="cuantos" value={data.length} format="metric" />
+							<Tooltip.Item label="cuantos" value={data.length} format="integer" />
 							<Tooltip.Item
 								label="frecuencia"
-								value={`${data.length} / ${parameters.cuantos}= ${data.frequency}`}
+								value={`${data.length} / ${parameters.cuantos} = ${data.frequency}`}
 								format="metric"
 							/>
 							<Tooltip.Separator />
