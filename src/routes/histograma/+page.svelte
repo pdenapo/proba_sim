@@ -21,6 +21,8 @@
 		sigma: number;
 	}
 
+	// Los parámetros para generar los datos
+
 	let parameters = {
 		cuantos: 1000,
 		mu: 0,
