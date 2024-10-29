@@ -45,6 +45,8 @@
 
 		<NavItem path="/histograma" text="Historgrama" currentUrl={$page.url} />
 
+		<NavItem path="/promedios" text="Promedios" currentUrl={$page.url} />
+
 		<NavItem path="/tcl" text="Teorema del Límite Central" currentUrl={$page.url} />
 
 
