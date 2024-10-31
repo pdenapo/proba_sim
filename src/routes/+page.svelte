@@ -6,5 +6,6 @@
 	Esta es una aplicación que hice para mis alumnos de Probabilidades y Estadística, con propóstos
 	didácticos. (C) 2024 Pablo Luis De Nápoli.
 
-	Licencia: GPL-3 o (a su opción) cualquier otra versión posterior publicada por la FSF.
+	Licencia: GPL-3 o (a su opción) cualquier otra versión posterior publicada por la FSF. Pueden 
+	obtener <a href="https://github.com/pdenapo/proba_sim">aquí</a> el código fuente.
 </main>
