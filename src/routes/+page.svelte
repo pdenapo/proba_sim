@@ -4,5 +4,7 @@
 	</h1>
 
 	Esta es una aplicación que hice para mis alumnos de Probabilidades y Estadística, con propóstos
-	didácticos. (C) 2004 Pablo Luis De Nápoli.
+	didácticos. (C) 2024 Pablo Luis De Nápoli.
+
+	Licencia: GPL-3 o (a su opción) cualquier otra versión posterior publicada por la FSF.
 </main>
